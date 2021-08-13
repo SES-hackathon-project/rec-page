@@ -1,0 +1,59 @@
+.one-rec-container {
+    padding:10px;
+}
+
+.recommendation {
+    /* Button */
+    padding:10px;
+    position: relative;
+    height: 7vh;
+    top:100px;
+    
+    background: #F5F5FA;
+    box-shadow: -2.52268px -2.52268px 5.04536px rgba(255, 255, 255, 0.5), 2.52268px 2.52268px 5.04536px rgba(170, 170, 204, 0.25), 5.04536px 5.04536px 10.0907px rgba(170, 170, 204, 0.5), -5.04536px -5.04536px 10.0907px #FFFFFF;
+    border-radius: 16.1451px;
+}
+
+.rec-button {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 10%;
+    /* top: 50%; */
+
+    /* Transparent */
+    background-color: Transparent;
+    border: none;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vh;
+    line-height: 64px;
+    /* or 178% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.rec-like-button {
+    position: absolute;
+    height: 50%;
+    width: 6%;
+    right: 5%;
+    /* top: 25px; */
+
+    /* background-color: Transparent; */
+    border: none;
+    background: #FFFFFF;
+    border-radius:20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rec-like-button.clicked {
+    background: #BAC4D1;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
